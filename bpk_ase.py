@@ -24,9 +24,9 @@ def add_student():
     try:
         # Connect to the PostgreSQL database, values differ accordingly
         conn = psycopg2.connect(
-            dbname="School",
-            user="postgres",
-            password="Sampath99@",
+            dbname="School",    #table name in Database
+            user="postgres",    
+            password="Password",   #use your password
             host="localhost",
             port="5432"
         )
